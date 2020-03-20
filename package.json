@@ -1,7 +1,7 @@
 {
-  "name": "frontendmasters-gatsby",
+  "name": "tk-blog",
   "private": true,
-  "description": "Bare-bones starter for the Gatsby Frontend Masters workshop.",
+  "description": "Blog built on top of Gatsby Frontend Masters workshop.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -40,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlengstorf/frontendmasters-gatsby"
+    "url": "https://github.com/ahorihs/gatsby-blog"
   }
 }

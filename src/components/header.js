@@ -35,9 +35,6 @@ const Header = () => (
       padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2); /* keep the header stuff centered with the body content */
     `}
   >
-    <NavLink to="/" fontWeight="bold">
-      FEM Workshop
-    </NavLink>
     <nav
       css={css`
         margin-top: 0;

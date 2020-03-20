@@ -3,7 +3,7 @@ import { Global, css } from '@emotion/core';
 import Helmet from 'react-helmet';
 import Header from './header';
 import useSiteMetadata from '../hooks/use-sitemetadata'; // graphql hook
-
+import Hero from '../components/hero';
 // Layout component that just wraps things and gives them the same global style
 
 const Layout = ({ children }) => {

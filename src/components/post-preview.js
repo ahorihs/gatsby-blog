@@ -17,27 +17,28 @@ const PostPreview = ({ post }) => (
       }
     `}
   >
-    <Link
-      to={post.slug}
-      css={css`
-        margin: 1rem 1rem 0 0;
-        width: 100px;
-      `}
-    >
-      <Image
-        fluid={post.image.sharp.fluid}
+    {post.image ? (
+      <Link
+        to={post.slug}
         css={css`
-          * {
-            margin-top: 0;
-          }
+          margin: 1rem 1rem 0 0;
+          width: 100px;
         `}
-        alt={post.title}
-      />
-    </Link>
+      >
+        <Image
+          fluid={post.image.sharp.fluid}
+          css={css`
+            * {
+              margin-top: 0;
+            }
+          `}
+          alt={post.title}
+        />
+      </Link>
+    ) : null}
     <div>
       <h3>
         <Link to={post.slug}>{post.title}</Link>
-        {post.title}
       </h3>
       <p>{post.excerpt}</p>
       <ReadLink to={post.slug}>read this post</ReadLink>
