@@ -1,0 +1,11 @@
+packages/plugins:
+    @emotion - styled components
+    gatsby-plugin-react-helmet / react-helmet - lib for modifying the head of html document; good for SEO
+    mdx-js - allows write react components inside markdown\
+    gatsby-source-filesystem - a way to use local files from the graphql data layer
+    gatsby-plugin-sharp - provides different compression sizes for images
+    gatsby-transformer-sharp - used with above to transform images
+    gatsby-source-filesystem - provides graphql queries on local files
+    gatsby-background-image - allow use of transformed background images
+    gatsby-image - same but for regular images
+    gatsby-remark-images - allow use of images in MDX
